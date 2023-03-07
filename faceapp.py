@@ -8,7 +8,6 @@ Created on Mon Mar  6 14:37:53 2023
 import streamlit as st
 import numpy as np
 import cv2
-import matplotlib.pyplot as plt
 from PIL import Image
 
 image = Image.open(r'imagefamily.jpg')
