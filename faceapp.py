@@ -28,7 +28,7 @@ with st.sidebar.expander("About Face Detection App"):
     st.write("""
              This app detects Faces in the image using HaarCascadeClassifier. Try out!
              """)
-uploaded_file = st.file_uploader("", type=['jpg','png','jpeg'])
+uploaded_file = st.file_uploader("Upload Image", type=['jpg','png','jpeg'])
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
