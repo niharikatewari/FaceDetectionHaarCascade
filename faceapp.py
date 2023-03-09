@@ -18,7 +18,7 @@ with col1:
     st.markdown("""<style> .font{
         font-size:55px; font-family:'Times New Roman'; color:##FF9633;}
         </style>""", unsafe_allow_html=True)
-    st.markdown('Upload your Photo For Face Detection Using Haar Cascade Classifier')
+    st.title('Face Detection Using Haar Cascade Classifier')
 
 with col2:
     st.image(image, width=150)
